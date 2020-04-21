@@ -22,9 +22,6 @@ let package = Package(
             name: "Test1",
             dependencies: [],
             path: "./Test1/Test1"
-        ),
-        .testTarget(
-            name: "TestFrameworkOneTests",
-            dependencies: []),
+        )
     ]
 )
