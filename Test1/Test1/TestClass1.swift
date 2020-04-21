@@ -7,3 +7,9 @@
 //
 
 import Foundation
+
+public class TestClass1 {
+    public init() {}
+
+    public let testName1: String = "Printing from framework 1"
+}

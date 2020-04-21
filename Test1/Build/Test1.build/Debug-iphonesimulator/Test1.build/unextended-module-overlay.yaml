@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/moleary/Desktop/Projects/TestFrameworkOne/Test1/Build/Debug-iphonesimulator/Test1.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/moleary/Desktop/Projects/TestFrameworkOne/Test1/Build/Test1.build/Debug-iphonesimulator/Test1.build/unextended-module.modulemap",
+    }]
+  }]
+}

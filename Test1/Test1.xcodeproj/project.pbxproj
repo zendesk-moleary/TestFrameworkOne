@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		C73532F0244EEE6B00E41950 /* Test1.h in Headers */ = {isa = PBXBuildFile; fileRef = C73532EE244EEE6B00E41950 /* Test1.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C73532F7244EF42700E41950 /* TestClass1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73532F6244EF42700E41950 /* TestClass1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C73532EB244EEE6B00E41950 /* Test1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Test1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C73532EE244EEE6B00E41950 /* Test1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test1.h; sourceTree = "<group>"; };
 		C73532EF244EEE6B00E41950 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C73532F6244EF42700E41950 /* TestClass1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestClass1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXGroup;
 			children = (
 				C73532EE244EEE6B00E41950 /* Test1.h */,
+				C73532F6244EF42700E41950 /* TestClass1.swift */,
 				C73532EF244EEE6B00E41950 /* Info.plist */,
 			);
 			path = Test1;
@@ -95,6 +98,7 @@
 				TargetAttributes = {
 					C73532EA244EEE6B00E41950 = {
 						CreatedOnToolsVersion = 11.3.1;
+						LastSwiftMigration = 1130;
 					};
 				};
 			};
@@ -131,6 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C73532F7244EF42700E41950 /* TestClass1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +265,7 @@
 		C73532F4244EEE6B00E41950 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -275,6 +281,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.moleary.Test1;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -283,6 +290,7 @@
 		C73532F5244EEE6B00E41950 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;

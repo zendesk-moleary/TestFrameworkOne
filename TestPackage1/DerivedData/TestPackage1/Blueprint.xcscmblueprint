@@ -1,0 +1,23 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "DC7A189BA4216588FA032C82945EBA4D9E5C1DAB",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "DC7A189BA4216588FA032C82945EBA4D9E5C1DAB" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "52F18B69-A5D4-4848-9F15-6124E9785BEC",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "DC7A189BA4216588FA032C82945EBA4D9E5C1DAB" : "TestFrameworkOne\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TestPackage1",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "TestPackage1",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git@github.com:zendesk-moleary\/TestFrameworkOne.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DC7A189BA4216588FA032C82945EBA4D9E5C1DAB"
+    }
+  ]
+}

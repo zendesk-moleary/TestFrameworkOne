@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+options: "4f35ba40a4f13868ce7f7a7877fe5f46"
+build_time: [1587464268, 392994000]
+inputs:
+  "/Users/moleary/Desktop/Projects/TestFrameworkOne/Test1/Test1/TestClass1.swift": [1587464260, 614586119]
